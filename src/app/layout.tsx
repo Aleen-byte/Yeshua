@@ -7,6 +7,9 @@ import { Metadata } from "next";
 export const metadata: Metadata = {
   title: 'Projeto Yeshua',
   description: 'Cristo vive',
+  icons: {
+    icon: 'src/app/favicon.jpg',
+  },
   openGraph:{
     title: 'Projeto Yeshua',
     description: 'Cristo vive'
