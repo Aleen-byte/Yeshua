@@ -9,7 +9,7 @@ export function Header(){
 
     return(
         <header className="flex px-2 py-4 bg-gray-200 text-whitw h-[60px] md:h-[80px]">
-            <div className="flex items-center justify-between w-full mx-10 max-w-7x1 text-[#03989e] font-bold text-[16px]">
+            <div className="flex items-center justify-between w-full mx-10 max-w-auto text-[#03989e] font-bold text-[16px]">
                 <a href="/" className="text-[#03989e] font-bold text-2xl flex gap-2 items-center">
                     <img className="" src="/images/logoyeshua.png" alt="Logo" width="60px"/>
                     <span>Yeshua</span>
@@ -52,7 +52,7 @@ export function Header(){
                     <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer">
                         <Link href="/contatos">Contatos</Link>
                     </li>
-                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer">
+                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e]   hover:text-white transition-all cursor-pointer">
                         <Link href="/sobre">Sobre</Link>
                     </li>
                 </ul>
