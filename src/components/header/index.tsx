@@ -11,7 +11,7 @@ export function Header(){
         <header className="flex px-2 py-4 bg-gray-200 text-whitw h-[60px] md:h-[80px]">
             <div className="flex items-center justify-between w-full mx-2 md:mx-5 max-w-auto text-[#03989e] font-bold text-[16px]">
                 <a href="/" className="text-[#03989e] font-bold text-2xl flex gap-2 items-center mt-2">
-                    <img className="" src="/images/logoyeshua.png" alt="Logo" width="60px"/>
+                    <img className="w-12 md:w-16 h-auto" src="/images/logoyeshua.png" alt="Logo"/>
                 </a>
 
                 <nav className="ml-auto">
