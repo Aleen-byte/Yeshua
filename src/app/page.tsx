@@ -3,6 +3,7 @@ import { Hero } from "./_components/hero"
 import { About } from "./_components/about"
 import { Suport } from "./_components/suport"
 import { Voluntary } from "./_components/voluntary"
+import { Apoiadores } from "./_components/apoiadores"
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -29,6 +30,7 @@ export default function Home(){
       <About />
       <Suport />
       <Voluntary />
+      <Apoiadores />
     </main>
    
   )
