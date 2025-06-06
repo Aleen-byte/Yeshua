@@ -1,8 +1,16 @@
 
 import "./globals.css";
 
-import { Header } from '../components/header'
+import { Header } from '../components/header';
 import { Metadata } from "next";
+import Head from 'next/head';
+
+<Head>
+  <link rel="preload" href="/images/bg1.png" as="image" />
+  <link rel="preload" href="/images/bg2.png" as="image" />
+  <link rel="preload" href="/images/bg3.png" as="image" />
+</Head>
+
 
 export const metadata: Metadata = {
   title: 'Projeto Yeshua',
