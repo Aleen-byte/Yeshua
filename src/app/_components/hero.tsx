@@ -24,14 +24,15 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="relative h-[812px] flex items-center overflow-hidden bg-black">
+    <section className="relative h-[812px] flex items-center overflow-hidden bg-gray-400">
       {/* Todas as imagens sobrepostas */}
       {images.map((image, index) => (
         <div
           key={index}
           className={`absolute inset-0 bg-cover bg-center transition-opacity duration-1000 
             ${index === current ? "opacity-100 z-10" : "opacity-0 z-0"} pointer-events-none`}
-          style={{ backgroundImage: `url(${image})` }}
+          style={{ backgroundImage: `url(${image})`,
+                    backgroundColor: "#9CA3AF" }}
         />
       ))}
 
