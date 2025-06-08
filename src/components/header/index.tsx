@@ -22,13 +22,13 @@ export function Header(){
                             </Link>
                         </li>
                         <li className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full hover:scale-105">
-                            <Link href='/contatos'>
-                                Contatos
+                            <Link href='/sobre'>
+                                Sobre
                             </Link>
                         </li>
                         <li className="relative after:content-[''] after:absolute after:left-0 after:-bottom-0.5 after:w-0 after:h-[2px] after:bg-blue-400 after:transition-all after:duration-300 hover:after:w-full hover:scale-105">
-                            <Link href='/sobre'>
-                                Sobre
+                            <Link href='/contatos'>
+                                Contatos
                             </Link>
                         </li>
                     </ul>
@@ -45,13 +45,19 @@ export function Header(){
                       : "opacity-0 -translate-y-5 pointer-events-none"
                      }`}
                  >
-                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer">
+                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer"
+                        onClick={() => setIsMenuOpen(false)}
+                    >
                         <Link href="/">Home</Link>
                     </li>
-                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer">
+                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e] hover:text-white transition-all cursor-pointer"
+                        onClick={() => setIsMenuOpen(false)}
+                    >
                         <Link href="/contatos">Contatos</Link>
                     </li>
-                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e]   hover:text-white transition-all cursor-pointer">
+                    <li className="list-none w-full text-center p-4 hover:bg-[#03989e]  hover:text-white transition-all cursor-pointer"
+                        onClick={() => setIsMenuOpen(false)}
+                    >
                         <Link href="/sobre">Sobre</Link>
                     </li>
                 </ul>

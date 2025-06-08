@@ -4,6 +4,7 @@ import { About } from "./_components/about"
 import { Suport } from "./_components/suport"
 import { Voluntary } from "./_components/voluntary"
 import { Apoiadores } from "./_components/apoiadores"
+import { Footer } from "./_components/footer"
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -28,9 +29,10 @@ export default function Home(){
     <main>
       <Hero />
       <About />
-      <Suport />
       <Voluntary />
+      <Suport />
       <Apoiadores />
+      <Footer />
     </main>
    
   )

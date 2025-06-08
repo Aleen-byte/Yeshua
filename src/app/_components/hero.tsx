@@ -24,7 +24,7 @@ export function Hero() {
   }, [])
 
   return (
-    <section className="relative h-[812px] flex items-center overflow-hidden bg-gray-400">
+    <section className="relative h-[900px] flex items-center overflow-hidden bg-gray-400">
       {/* Todas as imagens sobrepostas */}
       {images.map((image, index) => (
         <div
@@ -43,7 +43,7 @@ export function Hero() {
       <div className="container mx-auto py-16 px-4 relative z-30 text-white">
         <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div className="space-y-6">
-            <h1 className="text-3xl md:text-4xl font-bold leading-10">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
               Conheça o Projeto Yeshua
             </h1>
             <p className="lg:text-lg">
