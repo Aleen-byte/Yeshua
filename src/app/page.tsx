@@ -4,7 +4,7 @@ import { About } from "./_components/about"
 import { Suport } from "./_components/suport"
 import { Voluntary } from "./_components/voluntary"
 import { Apoiadores } from "./_components/apoiadores"
-import { Footer } from "./_components/footer"
+import { Loc } from "./_components/loc"
 
 export const metadata: Metadata = {
   title: 'Home',
@@ -32,7 +32,7 @@ export default function Home(){
       <Voluntary />
       <Suport />
       <Apoiadores />
-      <Footer />
+      <Loc />
     </main>
    
   )

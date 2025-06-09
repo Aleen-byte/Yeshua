@@ -3,9 +3,9 @@ import { HeartHandshake } from 'lucide-react'
 import { useEffect, useState } from 'react'
 
 const images = [
-  "/images/bg1.png",
-  "/images/bg2.png",
-  "/images/bg3.png",
+  "/images/yeshua1.jpg",
+  "/images/yeshua2.jpg",
+  "/images/yeshua3.jpg",
 ]
 
 export function Hero() {
